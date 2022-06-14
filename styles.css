@@ -138,13 +138,6 @@ header ul li {
     }
 }
 
-@media only screen and (min-width: 991.1px) {
-    header ul li:hover {
-        transform: scale(1.1);
-        transition: 0.3s;
-    }
-}
-
 button {
     padding: 5px 20px;
     background-color: transparent;
@@ -351,17 +344,13 @@ button {
     margin: 10px;
     color: white;
     cursor: pointer;
-    transition: all .2s;
-}
-
-@media only screen and (min-width: 991.1px) {
-    .contact-icons i:hover {
-        transform: scale(1.2);
-        color: #06D6A0;
-    }
 }
 
 @media only screen and (max-width: 991px) {
+    .contact-heading {
+        font-size: 1.5rem;
+    }
+
     .contact-icons {
         font-size: 2rem;
     }

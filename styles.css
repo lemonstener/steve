@@ -147,6 +147,13 @@ button {
     margin: 10px auto;
 }
 
+.about-bio button {
+    /* The following styling is needed for better accessibility and WCAG compliancy - https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html */
+    margin: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
 @media only screen and (max-width: 991px) {
     .button1 {
         border: none;
